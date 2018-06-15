@@ -34,4 +34,33 @@
       padding: 2em 0;
     }
   }
+
+  .invite-form-wrapper {
+    display: flex;
+    justify-content: center;
+
+    .invite-form {
+      width: 75%;
+      background: white;
+      padding: 1.5em;
+
+      > * {
+        margin-bottom: 1.5em;
+      }
+
+      .form-title {
+        text-align: center;
+
+        &:after {
+          content: '_____';
+          display: block;
+          font-weight: bold;
+        }
+      }
+
+      .button {
+        width: 100%;
+      }
+    }
+  }
 }
