@@ -1,0 +1,37 @@
+.page-invite {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+
+  .invite-header {
+    font-size: 1.5em;
+    padding: 1em 3em;
+    border-bottom: 1px solid gray;
+  }
+
+  .invite-footer {
+    text-align: center;
+    border-top: 1px solid gray;
+    padding: 2em;
+  }
+
+  .invite-content {
+    text-align: center;
+    .main-title {
+      font-size: 3em;
+      width: 50%;
+      display: inline-block;
+
+    }
+    @media (max-width: 600px) {
+      .main-title {
+        font-size: 1.7em;
+      }
+    }
+    .sub-title {
+      padding: 2em 0;
+    }
+  }
+}
