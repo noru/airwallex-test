@@ -14,33 +14,7 @@ let uri = 'http://' + host + ':' + port
  */
 if (process.env.NODE_ENV === 'production') {
 
-  let express = require('express')
-  let app = express()
-  let bodyParser = require('body-parser')
-  let path = require('path')
-
-  app.use(require('connect-history-api-fallback')())
-  app.use('/dashboard', express.static(path.join(__dirname, '../build')))
-  app.use(bodyParser.json())
-  console.log('> Starting prod server...'.green)
-  app.listen(port, (err) => {
-    if (err) {
-      console.error(err)
-      return
-    }
-    console.log(`> ♏️  App is listening at ${uri}`.green)
-    opn(uri + '/dashboard/index.html')
-  })
-  app.all('/gateway/*', function(req, res) {
-    var uri = 'http://apm-dev.hcdigital.com.cn' + req.path;
-    request({
-      uri: uri,
-      method: req.method,
-      headers: req.headers,
-      body: JSON.stringify(req.body),
-    },)
-    .pipe(res);
-  })
+  // not used
 
 } else {
 

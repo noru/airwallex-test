@@ -1,6 +1,4 @@
 module.exports = {
-  publicPath: '/dashboard/',
+  publicPath: '/',
   basename: '',
-  apiPrefix: '/gateway',
-  urlPrefix: '/geapm',
 }

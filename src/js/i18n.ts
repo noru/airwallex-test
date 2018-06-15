@@ -6,7 +6,7 @@ import * as LanguageDetector from 'i18next-browser-languagedetector'
 import { hashOf } from 'noru-utils/lib'
 
 let hash = hashOf(
-  require('!file-loader?name=[hash]&emitFile=false!../assets/locales/zh/common.json') +,
+  require('!file-loader?name=[hash]&emitFile=false!../assets/locales/zh/common.json'),
 )
 let instance = i18n
   .use(XHR)

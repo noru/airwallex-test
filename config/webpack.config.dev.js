@@ -60,15 +60,6 @@ module.exports = merge(config, {
     watchContentBase: true,
     historyApiFallback: true,
     port: 8888,
-    proxy: {
-      '/gateway': {
-        target: 'http://apm-dev.hcdigital.com.cn:8090',
-        pathRewrite: {
-          '^/gateway': '',
-        },
-        changeOrigin: true,
-      },
-    },
     disableHostCheck: true,
   }
 })
