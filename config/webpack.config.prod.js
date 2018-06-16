@@ -21,7 +21,7 @@ module.exports = merge(config, {
   entry: {
     app: path.join(__dirname, '../src/js/index'),
     vendor: ['react', 'react-dom', 'react-router', 'react-router-dom',
-      'moment', 'axios', 'rxjs', 'i18next']
+      'axios', 'rxjs', 'i18next']
   },
   output: {
     filename: 'assets/js/[name].[hash].js',
