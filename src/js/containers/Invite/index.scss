@@ -67,5 +67,15 @@
         width: 100%;
       }
     }
+
+    @media (max-width: 600px) {
+      .invite-form {
+        width: 100%;
+      }
+      .error-msg {
+        padding: .5em 1em;
+        font-size: .75em;
+      }
+    }
   }
 }

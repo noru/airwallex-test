@@ -27,7 +27,7 @@ function Footer({ t }) {
 
 function ErrorMsg({ response }: { response: InviteResponse}) {
   if (response && response.status !== 200) {
-    return <div className="notification is-danger">{response.msg}</div>
+    return <div className="error-msg notification is-danger">{response.msg}</div>
   }
   return null
 }
@@ -52,10 +52,6 @@ export class Login extends React.Component<any, State> {
     this.setState({ showModal: true })
   }
 
-  closeModal = () => {
-    this.setState({ showModal: false })
-  }
-
   invite = (fullname, email) => {
     let { dispatch } = this.props
     dispatch({ type: 'invite/set/invite-response'})
@@ -65,7 +61,7 @@ export class Login extends React.Component<any, State> {
   done = () => {
     let { dispatch } = this.props
     dispatch({ type: 'invite/set/invite-response'})
-    this.closeModal()
+    this.setState({ showModal: false})
   }
 
   extractErrors = ({fullname, email, confirm, $form}) => {
@@ -99,7 +95,7 @@ export class Login extends React.Component<any, State> {
           <a className="button" onClick={this.openModal}>{t`Request an invite`}</a>
         </div>
         <Footer t={t}/>
-        <Modal show={showModal} onClose={this.closeModal}>
+        <Modal show={showModal} onClose={this.done}>
           <div className="invite-form-wrapper">
             <div className="invite-form">
               { inviteResponse && inviteResponse.status === 200
