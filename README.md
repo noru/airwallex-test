@@ -2,6 +2,16 @@
 
 🤡👉 [Live Page](https://noru.github.io/airwallex-test/build/index.html) 👈🤡
 
+Note: Copy from existing setup, not garantee minimum boilerplate; Limited test cases.
+
+#### scripts
+```
+npm i
+npm run dev // start dev server locally with mocked api
+npm run build
+npm run test
+```
+
 ## Checklist
 
 UI:
@@ -28,11 +38,4 @@ Tooling
 - [x] The solution should use **flexbox** layout where appropriate (basic page layout, positioning elements, anything relevant.; we do not support browsers that do not support flexbox).
 - [x] The solution should be in ES6 though **Typescript** / Flow are preferred if appropriate.
 
-#### scripts, kinda self-explained
-```
-npm i
-npm run dev
-npm run build
-npm run test
-```
 

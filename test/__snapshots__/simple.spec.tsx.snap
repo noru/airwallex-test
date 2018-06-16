@@ -1,0 +1,262 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`General tests 1`] = `
+<div
+  className="page-invite"
+>
+  <div
+    className="invite-header"
+  >
+    Broccoli & Co.
+  </div>
+  <div
+    className="invite-content"
+  >
+    <div
+      className="main-title"
+    >
+      A better way to enjoy everday.
+    </div>
+    <div
+      className="sub-title"
+    >
+      Be the first to know when we launch.
+    </div>
+    <a
+      className="button"
+      onClick={[Function]}
+    >
+      Request an invite
+    </a>
+  </div>
+  <div
+    className="invite-footer"
+  >
+    <div>
+      Made with ❤️ in Melbourne
+    </div>
+    <div>
+      © 2016 Broccoli & Co. All rights reserved.
+    </div>
+  </div>
+</div>
+`;
+
+exports[`General tests 2`] = `
+<div
+  className="page-invite"
+>
+  <div
+    className="invite-header"
+  >
+    Broccoli & Co.
+  </div>
+  <div
+    className="invite-content"
+  >
+    <div
+      className="main-title"
+    >
+      A better way to enjoy everday.
+    </div>
+    <div
+      className="sub-title"
+    >
+      Be the first to know when we launch.
+    </div>
+    <a
+      className="button"
+      onClick={[Function]}
+    >
+      Request an invite
+    </a>
+  </div>
+  <div
+    className="invite-footer"
+  >
+    <div>
+      Made with ❤️ in Melbourne
+    </div>
+    <div>
+      © 2016 Broccoli & Co. All rights reserved.
+    </div>
+  </div>
+  <div
+    className="modal is-active"
+  >
+    <div
+      className="modal-background"
+      onClick={[Function]}
+    />
+    <div
+      className="modal-content"
+    >
+      <div
+        className="invite-form-wrapper"
+      >
+        <div
+          className="invite-form"
+        >
+          <form
+            onReset={[Function]}
+            onSubmit={[Function]}
+          >
+            <div
+              className="form-title"
+            >
+              Request an invite
+            </div>
+            <input
+              className="input"
+              disabled={false}
+              name="local.fullname"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyPress={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              placeholder={
+                Array [
+                  "Full name",
+                ]
+              }
+              required={true}
+              type="text"
+              value=""
+            />
+            <input
+              className="input"
+              disabled={false}
+              name="local.email"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyPress={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              placeholder={
+                Array [
+                  "Email",
+                ]
+              }
+              required={true}
+              type="email"
+              value=""
+            />
+            <input
+              className="input"
+              disabled={false}
+              name="local.confirm"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyPress={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              placeholder={
+                Array [
+                  "Confirm Email",
+                ]
+              }
+              required={true}
+              type="email"
+              value=""
+            />
+            <button
+              className="button is-primary"
+              type="submit"
+            >
+              Send
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`General tests 3`] = `
+<div
+  className="page-invite"
+>
+  <div
+    className="invite-header"
+  >
+    Broccoli & Co.
+  </div>
+  <div
+    className="invite-content"
+  >
+    <div
+      className="main-title"
+    >
+      A better way to enjoy everday.
+    </div>
+    <div
+      className="sub-title"
+    >
+      Be the first to know when we launch.
+    </div>
+    <a
+      className="button"
+      onClick={[Function]}
+    >
+      Request an invite
+    </a>
+  </div>
+  <div
+    className="invite-footer"
+  >
+    <div>
+      Made with ❤️ in Melbourne
+    </div>
+    <div>
+      © 2016 Broccoli & Co. All rights reserved.
+    </div>
+  </div>
+</div>
+`;
+
+exports[`General tests 4`] = `
+<div
+  className="page-invite"
+>
+  <div
+    className="invite-header"
+  >
+    Broccoli & Co.
+  </div>
+  <div
+    className="invite-content"
+  >
+    <div
+      className="main-title"
+    >
+      A better way to enjoy everday.
+    </div>
+    <div
+      className="sub-title"
+    >
+      Be the first to know when we launch.
+    </div>
+    <a
+      className="button"
+      onClick={[Function]}
+    >
+      Request an invite
+    </a>
+  </div>
+  <div
+    className="invite-footer"
+  >
+    <div>
+      Made with ❤️ in Melbourne
+    </div>
+    <div>
+      © 2016 Broccoli & Co. All rights reserved.
+    </div>
+  </div>
+</div>
+`;

@@ -1,7 +1,7 @@
 import React from 'react'
 import { translate } from 'react-i18next'
 import { connect } from 'dva'
-import { flow } from 'noru-utils/lib'
+import { flow } from 'noru-utils/dist/utils.umd'
 import Modal from '../../components/Modal'
 import Tooltip from 'rc-tooltip'
 import 'rc-tooltip/assets/bootstrap_white.css'
@@ -39,7 +39,7 @@ interface State {
   confirmError: string,
 }
 
-export class Login extends React.Component<any, State> {
+export class Invite extends React.Component<any, State> {
 
   state = {
     showModal: false,
@@ -189,7 +189,7 @@ function mapState2Props({ invite, loading }) {
   }
 }
 export default flow(
-  Login,
+  Invite,
   translate(),
   connect(mapState2Props),
 )
