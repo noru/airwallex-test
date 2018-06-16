@@ -1,4 +1,7 @@
 # Airwallex test
+
+🤡👉 [Live Page](https://noru.github.io/airwallex-test/build/index.html) 👈🤡
+
 ## Checklist
 
 UI:
