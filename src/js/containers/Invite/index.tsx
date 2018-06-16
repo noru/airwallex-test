@@ -48,8 +48,6 @@ export class Login extends React.Component<any, State> {
     confirmError: '',
   }
 
-  formDispatch: any
-
   openModal = () => {
     this.setState({ showModal: true })
   }
@@ -122,7 +120,6 @@ export class Login extends React.Component<any, State> {
                     onUpdate={form => this.extractErrors(form)}
                     // onChange={values => console.log(values)}
                     onSubmit={({ fullname, email }) => this.invite(fullname, email)}
-                    getDispatch={d => this.formDispatch = d}
                     validators={{
                       '': {
                         emailMatch: (vals) => vals.email === vals.confirm,

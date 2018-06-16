@@ -48,16 +48,12 @@
     "copy-webpack-plugin": "^4.5.1",
     "cross-env": "^2.0.1",
     "css-loader": "^0.24.0",
-    "eslint": "^4.1.1",
-    "eslint-plugin-react": "6.2.0",
     "express": "4.14.0",
     "file-loader": "^1.1.11",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.4.0",
-    "mock-require": "^2.0.2",
     "node-sass": "^4.5.3",
     "postcss-loader": "^2.0.6",
-    "react-addons-test-utils": "^15.5.4",
     "react-hot-loader": "3.0.0-beta.7",
     "redbox-react": "^1.4.2",
     "rimraf": "^2.6.1",
@@ -105,9 +101,7 @@
     "react-redux-form": "^1.16.9",
     "react-router": "^4.1.1",
     "react-router-dom": "^4.1.1",
-    "rxjs": "^5.5.2",
-    "string.prototype.startswith": "0.2.0",
-    "validators": "^0.3.1"
+    "string.prototype.startswith": "0.2.0"
   },
   "nyc": {
     "extension": [
