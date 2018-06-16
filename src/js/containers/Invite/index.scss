@@ -43,11 +43,12 @@
       background: white;
       padding: 1.5em;
 
-      > * {
+      .input {
         margin-bottom: 1.5em;
       }
 
       .form-title {
+        margin-bottom: 1.5em;
         text-align: center;
 
         &:after {
@@ -55,6 +56,11 @@
           display: block;
           font-weight: bold;
         }
+      }
+
+      .success-msg {
+        padding: 2.5em;
+        text-align: center;
       }
 
       .button {

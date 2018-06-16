@@ -12,7 +12,7 @@
   "bugs": "https://github.com/noru/my-react-boilerplate/issues",
   "scripts": {
     "clean": "rimraf build",
-    "dev": "USE_MOCK=true node ./src/devServer.js",
+    "dev": "USE_MOCK=false node ./src/devServer.js",
     "build": "npm run clean && cross-env NODE_ENV=production webpack --config ./config/webpack.config.prod.js --progress",
     "coverage": "NODE_ENV=test nyc mocha --compilers ts:ts-node/register,tsx:ts-node/register,js:babel-core/register,css:./test/unit/cssNullCompiler.js -r tsconfig-paths/register ./test/unit/**/*.spec.*",
     "test": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' TS_NODE_PROJECT=./ NODE_ENV=test mocha --compilers ts:ts-node/register,tsx:ts-node/register,css:./test/unit/cssNullCompiler.js -r tsconfig-paths/register ./test/unit/**/*.spec.*",
@@ -98,13 +98,16 @@
     "lscache": "1.1.0",
     "noru-utils": "^0.1.27",
     "raf": "^3.4.0",
+    "rc-tooltip": "^3.7.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-i18next": "^3.1.2",
+    "react-redux-form": "^1.16.9",
     "react-router": "^4.1.1",
     "react-router-dom": "^4.1.1",
     "rxjs": "^5.5.2",
-    "string.prototype.startswith": "0.2.0"
+    "string.prototype.startswith": "0.2.0",
+    "validators": "^0.3.1"
   },
   "nyc": {
     "extension": [

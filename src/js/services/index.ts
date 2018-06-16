@@ -10,6 +10,8 @@ export const ENDPOINT = 'https://l94wc2001h.execute-api.ap-southeast-2.amazonaws
 class LoginService {
   invite(name: string, email: string): Promise<any> {
     return axios.post(ENDPOINT, { name, email })
+      .then(() => ({ status: 200 }))
+      .catch(e => ({ status: e.response.status, msg: e.response.data.errorMessage }))
   }
 }
 
