@@ -52,7 +52,7 @@ module.exports = merge(config, {
           'css-loader',
             { loader: 'sass-loader', query: { outputStyle: 'compressed' } },
           'postcss-loader',
-        ]
+        ],
       },
       {
         test: /\.s?css$/,

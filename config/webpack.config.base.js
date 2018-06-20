@@ -61,6 +61,7 @@ module.exports = {
     }]),
     new CopyWebpackPlugin([
       { from: 'src/assets/locales/zh', to: 'assets/locales/zh-CN'},
+      { from: 'src/assets/locales/en', to: 'assets/locales/en-US'},
     ]),
   ],
   module: {
